@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CCTB - Introduction to Internet Programming and Web Applications">
+    <title>CCTB - Introduction to Internet Programming and Web Applications</title>
+    <!-- Link CSS files -->
+    <link rel="stylesheet" href="css/core.min.css" />
+    <link rel="stylesheet" href="css/vendor_bundle.min.css" />
+    <!-- Link favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="https://canvascctb.s3.ca-central-1.amazonaws.com/account_1/attachments/95/CCTB_favicon.ico" />
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <!-- Header -->
+        <header id="header" class="shadow-xs">
+            <!-- Navbar -->
+            <div class="container position-relative">
+                <nav class="navbar navbar-expand-lg navbar-light justify-content-lg-between justify-content-md-inherit">
+                    <div class="align-items-start">
+                        <ul class="navbar-nav" id="menuTab">
+                            <li class="nav-item dropdown">
+                                <a href="#" id="mainNavBlog" class="nav-link" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <h3>Lab 7.1 Conditional execution & AWS & GIT</h3>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container py-5 mt-5">
+            <h1 class="h2 mb-0 fw-bold">Contact Lists</h1>
+            <p class="lead text-gray-700">Easily manage and display a list of contacts. Use the options to show, modify, or add new contacts. Extend the list dynamically with the provided tools to ensure efficient contact management.</p>
+
+            <!-- Contact list that will be dynamically updated -->
+            <ul class="list-group">
+                <!-- Contact items will be dynamically inserted here by JavaScript -->
+            </ul>
+
+        </div>
+
+        <!-- ADD MORE -->
+        <div class="section py-5 border-bottom bg-warning">
+            <div class="container">
+                <div class="row text-center-xs">
+                    <div class="col-12 col-md-8">
+                        <h3 class="m-0">To add a new contact, click on the "Add Contact" button and fill in the required details.</h3>
+                    </div>
+
+                    <div class="col-12 mt-4 d-block d-md-none">
+                        <!-- mobile spacer -->
+                    </div>
+
+                    <div class="col-12 col-md-4 text-align-end">
+                        <a href="#" class="btn btn-primary rounded-pill d-inline-flex align-items-end px-4" id="sign-out">
+                            <span class="me-2">Add Contact</span>
+                            <svg width="18px" height="18px" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /ADD MORE -->
+    </div>
+
+    <!-- Include the script.js file -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
